@@ -1,0 +1,20 @@
+server:
+  port: 8888
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/jpa
+    username: root
+    password: 123456
+
+  #spring.jpa.database=MySQL
+  #spring.jpa.show-sql=true
+  #spring.jpa.generate-ddl=true
+  #spring.jpa.hibernate.ddl-auto=update
+  jpa:
+    database: MySQL
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
